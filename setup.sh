@@ -47,7 +47,8 @@ apt-get update &>/dev/null
 
 # Install the dependencies
 msg "Installing dependencies..."
-apt-get install python-dev-is-python2 python-setuptools libssl-dev libcurl4-openssl-dev libjpeg-dev zlib1g-dev libffi-dev libzbar-dev libzbar0 -y &>/dev/null
+apt-get install python-dev-is-python2 python-setuptools libssl-dev libcurl4-openssl-dev libjpeg-dev zlib1g-dev libffi-dev libzbar-dev libzbar0 -y 
+#&>/dev/null
 
 # Add /usr/local/bin to PATH
 export PATH=$PATH:/usr/local/bin
